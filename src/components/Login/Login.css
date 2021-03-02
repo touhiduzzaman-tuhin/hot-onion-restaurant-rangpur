@@ -1,0 +1,20 @@
+.image-style{
+    height: 60px;
+    margin-bottom: 20px;
+    margin-top : 20px;
+}
+.user-change{
+    color: red;
+    cursor: pointer;
+}
+.login-box{
+    border : 1px solid lightgray;
+    padding : 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+/* .login-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */

@@ -1,0 +1,17 @@
+.footer{
+    background-color: #191919;
+    padding: 30px;
+}
+.footer img{
+    height: 50px;
+}
+.footer ul li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+.footer-link:hover{
+    text-decoration: none;
+}
+.footer-link{
+    color: white;
+}

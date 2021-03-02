@@ -1,0 +1,22 @@
+.order-summary{
+    margin-top: 80px;
+    font-family: Roboto;
+}
+.order-summary h5{
+    color : blue;
+}
+.food-cart-style{
+    background-color:#F5F5F5;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.food-cart-style h3{
+    color: green;
+}
+.food-cart-style h4{
+    color: red;
+}
+.food-cart-style h5{
+    color: salmon;
+}
