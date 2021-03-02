@@ -8,6 +8,7 @@ import { UserContext } from '../../App';
 import { useHistory, useLocation } from 'react-router-dom';
 
 const Login = () => {
+    document.title = 'Login';
     initializeApp();
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const [newUser, setNewUser] = useState(false);
@@ -93,7 +94,7 @@ const Login = () => {
         console.log(userInfo);
         setUser(userInfo);
         setLoggedInUser(userInfo);
-        
+
         if(isRedirect){
             history.replace(from);
         }
@@ -104,7 +105,7 @@ const Login = () => {
 
     return (
         <div className='d-flex justify-content-center align-items-center'>
-            <div style={{width: '300px'}}>
+            <div style={{width: '300px', marginTop: '70px'}}>
                 <img className='image-style' src={logo} alt=""/>
 
                 <div className='login-box' align='center'>

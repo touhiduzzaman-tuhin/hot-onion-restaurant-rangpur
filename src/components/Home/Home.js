@@ -6,6 +6,7 @@ import Header from '../Header/Header';
 import Menu from '../Menu/Menu';
 
 const Home = () => {
+    document.title = 'Red Onion'
     return (
         <div>
             <Header></Header>

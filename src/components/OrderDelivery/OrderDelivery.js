@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
 const OrderDelivery = () => {
+    document.title = 'Delivery Track';
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     // const date = new Date();
     function formatAMPM(date) {

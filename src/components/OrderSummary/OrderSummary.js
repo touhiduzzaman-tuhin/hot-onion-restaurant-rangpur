@@ -6,6 +6,7 @@ import ProcessPayment from '../ProcessPayment/ProcessPayment';
 import './OrderSummary.css';
 
 const OrderSummary = () => {
+    document.title = 'Order Details';
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     console.log(loggedInUser);
     const foods = foodData.filter(food => food.id === loggedInUser.selectedFood);

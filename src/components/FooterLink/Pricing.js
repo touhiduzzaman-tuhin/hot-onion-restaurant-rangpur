@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Pricing = () => {
+    document.title = 'Pricing';
     return (
         <div align='center' style={{marginTop: '100px'}}>
             <h3>Pricing Page Coming Soon...</h3>

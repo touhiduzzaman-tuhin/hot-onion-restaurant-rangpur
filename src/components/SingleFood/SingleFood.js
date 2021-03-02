@@ -8,6 +8,7 @@ import foodData from '../../fakeData/FoodData';
 import './SingleFood.css';
 
 const SingleFood = () => {
+    document.title = 'Selected Food'
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const [foodValue, setFoodValue] = useState(1);
     const [foodCard, setFoodCard] = useState({
@@ -25,6 +26,7 @@ const SingleFood = () => {
         newFoodDetails.selectedFood = food.id;
         setFoodCard(newFoodDetails);
         setLoggedInUser(newFoodDetails);
+        alert('You Can Now Check Out Your Food From Home Page!!!')
         // setFoodCard(foodDetails);
         // setLoggedInUser(foodDetails)
         // sessionStorage.setItem('food', JSON.stringify(foodDetails))
