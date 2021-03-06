@@ -20,7 +20,6 @@ A front-end restaurant app where you can order your favorite food from the menu.
 - Bootstrap
 - Firebase Authentication
 - Stripe.js
-- Heroku
 - Netlify
 - FontAwesome
 - Material-Ui
