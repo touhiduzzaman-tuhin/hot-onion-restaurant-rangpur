@@ -6,7 +6,7 @@
 
 Role : Front End Developer
 
-A front-end restaurant app where you can order your favorite food from the menu. You have options for breakfast, lunch, and dinner. Pay online using your credit card and enjoy the most delicious dummy food.
+A Single Page Application app where you can order your favorite food from the menu. You have options for breakfast, lunch, and dinner. Pay online using your credit card and enjoy the most delicious dummy food.
 
 ### Features
 - Single Page Application (SPA)
