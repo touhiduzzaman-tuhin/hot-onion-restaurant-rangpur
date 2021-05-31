@@ -43,7 +43,7 @@ const SingleFood = () => {
                 <hr style={{color : 'red'}}/>
                 <p>{food.description}</p>
                 <div className='d-flex'>
-                    <h3>${foodPrice}</h3> &nbsp; &nbsp; &nbsp; &nbsp;
+                    <h3>{foodPrice} TK</h3> &nbsp; &nbsp; &nbsp; &nbsp;
                                         
                     <Button onClick={ () => setFoodValue(foodValue - 1)}>
                         <FontAwesomeIcon icon={faMinus}></FontAwesomeIcon>

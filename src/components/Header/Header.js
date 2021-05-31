@@ -14,12 +14,17 @@ const Header = () => {
             {/* <h3>{loggedInUser.name}</h3> */}
             <div className="container">
                 <Link to="/" className="navbar-brand logo-image">
-                    <img src={logo} alt="Hot Onion Logo"/>
+                    <img src={logo} alt="Hot Onion Logo" />
                 </Link>
-               
+
                 <h3>{loggedInUser.name}</h3>
                 {/* <Button disabled>{loggedInUser.name}</Button> */}
                 <ul className="navbar-nav align-items-center">
+                    <li className="nav-item">
+                        <Link to='/contact' className='nav-link'>
+                            <Button>Contact</Button>
+                        </Link>
+                    </li>
                     <li className="nav-item active mx-4">
                         <FontAwesomeIcon icon={faCartPlus}></FontAwesomeIcon>
                     </li>

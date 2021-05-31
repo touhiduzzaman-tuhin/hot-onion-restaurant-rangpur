@@ -1,6 +1,7 @@
 import { createContext, useState } from 'react';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import './App.css';
+import Contact from './components/Contact/Contact';
 import Finish from './components/Finish/Finish';
 import AboutFood from './components/FooterLink/AboutFood';
 import AddRestaurant from './components/FooterLink/AddRestaurant';
@@ -45,6 +46,7 @@ function App() {
           <Route path="/finish">
             <Finish></Finish>
           </Route>
+          
           <Route path="/orderTime">
             <OrderDelivery></OrderDelivery>
           </Route>
@@ -86,6 +88,9 @@ function App() {
           </Route>
           <Route path="/viewClients">
             <ViewClient></ViewClient>
+          </Route>
+          <Route path="/contact">
+            <Contact></Contact>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

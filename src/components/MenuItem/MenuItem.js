@@ -17,7 +17,7 @@ const MenuItem = (props) => {
                             <Card.Text>
                                 {shortDescription}
                             </Card.Text>
-                            <h3>${price}</h3>
+                            <h3>{price} TK</h3>
                         </Card.Body>
                     </Card>
                 </Button>

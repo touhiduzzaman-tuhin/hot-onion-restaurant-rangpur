@@ -1,0 +1,20 @@
+.contact-container{
+    background:#2d313b;
+    padding:160px 10px;
+}
+.form-container{
+    position:relative;
+    width:50%;
+    top:30%;
+    margin:auto;
+    background:#444851;
+    padding:50px 30px;
+    color:white;
+    border-radius:10px;
+}
+
+@media only screen and (max-width:991px){
+    .form-container{
+        width:80%;
+    }
+}
